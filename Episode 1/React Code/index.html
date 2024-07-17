@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inception</title>
+</head>
+
+<body>
+
+    <div id="root"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.development.min.js"
+        integrity="sha512-0/F/LhpRyzR2Zp0y5+OIpcPFFd6kT7zia0k7vtvXZFBRyyOJFstxmbxdDc6AlGz+ZmvyXESKzvs8LEkjPbGScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.development.min.js"
+        integrity="sha512-aTIGujEp0xIZSXrXXFjXL3YiozmMRYjKmll3rLYTmUIGaaidsrQNn+ii04E+VwlpIUNZOF3UBoXRmNQBEdD/qQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        let h1 = React.createElement("h1", {}, "Hello World From React!");
+        let root = ReactDOM.createRoot(document.querySelector("#root"));
+        root.render(h1);
+    </script>
+</body>
+
+</html>
