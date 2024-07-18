@@ -1,0 +1,24 @@
+{
+  "name": "igniting-our-app",
+  "version": "1.0.0",
+  "description": "Learning How to Create a React App from Scratch.",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "React",
+    "Learning"
+  ],
+  "author": "pkkrsingh877",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
